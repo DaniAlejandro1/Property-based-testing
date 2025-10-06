@@ -1,0 +1,107 @@
+# =====================================
+# FASTAPI / PYTHON PROJECT GITIGNORE
+# =====================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & runtime ---
+*.log
+*.pot
+*.pid
+*.seed
+*.coverage
+coverage.xml
+htmlcov/
+celerybeat-schedule
+*.db.sqlite3
+*.sqlite3
+*.db
+
+# --- Build / distribution ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# --- Test / pytest / Hypothesis ---
+.pytest_cache/
+.tox/
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+hypothesis/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# --- FastAPI specific ---
+# Config files
+.env
+*.env
+.env.local
+.env.*.local
+
+# Alembic / migrations
+alembic.ini
+migrations/
+
+# Database
+*.db
+*.sqlite
+data/
+
+# --- Docker ---
+*.pid
+docker-compose.override.yml
+*.dockerfile
+
+# --- Jupyter / notebooks (if any) ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Temporary / cache ---
+tmp/
+temp/
+cache/
+__pypackages__/
+
+.hypothesis
